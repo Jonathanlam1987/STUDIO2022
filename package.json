@@ -1,0 +1,23 @@
+{
+  "name": "studio2022",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.15",
+    "save-dev": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "env": "^0.0.2",
+    "express": "^4.17.2",
+    "express-handlebars": "^6.0.2",
+    "handlebars": "^4.7.7"
+  }
+}

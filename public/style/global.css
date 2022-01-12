@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(230, 230, 230);
+}
+
+
+.drop-down-container {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+.drop-down-container > * {
+    flex-basis: 99%;
+}
+
+
+
+.title-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.design {
+    width: 99%; 
+}
+.centered { 
+    position: absolute;
+    width: 300px;
+    top: 50%;
+    left: 40%;
+}
+/* Bottom left text */
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 80px;
+  }
+
+
+
+
+.retail-container {
+    background-color: rgb(255, 255, 255);
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
