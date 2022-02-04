@@ -1,0 +1,21 @@
+{
+    "name": "painting1",
+    "price": "900.00",
+    "imageURL": "images/anml1.jpg",
+    "description": "lorem",
+    "size": "7 x 11 inch"
+}, 
+{
+    "name": "painting2",
+    "price": "975.00",
+    "imageURL": "images/anml2.jpg",
+    "description": "lorem",
+    "size": "7 x 11 inch"
+},
+{ 
+    "name": "painting2",
+    "price": "825.00",
+    "imageURL": "images/anml3.jpg",
+    "description": "lorem",
+    "size": "7 x 11 inch"
+}

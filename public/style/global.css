@@ -1,5 +1,6 @@
 body {
     background-color: rgb(230, 230, 230);
+ 
 }
 
 
@@ -16,7 +17,7 @@ body {
 .title-container{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 
@@ -26,28 +27,33 @@ body {
 
 
 .image-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    position: relative;
 }
-.design {
-    width: 99%; 
-}
+
+/* center text */
 .centered { 
+    background: rgba(206, 178, 153, 0.4); 
     position: absolute;
     width: 300px;
-    top: 50%;
+    top: 40%;
     left: 40%;
+    
 }
 /* Bottom left text */
 .bottom-left {
     position: absolute;
-    bottom: 8px;
+    bottom: 80px;
     left: 80px;
   }
 
 
+.retail-title-container {
+    background-color: rgb(255, 255, 255);
+    padding-top: 70px;
+    text-align: center;
+    height: 150px;
 
+}
 
 .retail-container {
     background-color: rgb(255, 255, 255);
@@ -55,6 +61,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 
 }
 
+
+
+.product-container {
+
+}
