@@ -1,5 +1,6 @@
 
 
+require('../models/database');
 
 
 
@@ -8,5 +9,11 @@
 // GET / Homepage
 
 exports.homepage = async (req, res) => {
-    res.render('home');
+    try {
+        res.render('home', { title : 'STUDIO - homepage'});     
+    } catch (error) {
+        res.status(500).send({ message: error.message || "error occured"});
+    }
+    
+    
 }
