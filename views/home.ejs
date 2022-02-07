@@ -11,12 +11,22 @@
 
         <div class="retail-title-container">
               <p><h3>Retail</h2></p>
-         </div>
-    <div class="retail-container">
- 
-          <div class="product-container">
-              <div class="retail-product">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus dignissimos ratione error illum nobis? Consequatur, iste, illum a magnam eaque sunt error, odio cumque fuga iusto veniam fugit sint ex.
+        </div>
+
+    <div class="container">  
+              <div class="retail-container">
+                  <div class="retail-item">
+                    
+                    <% if(paintings != '') { %>
+                        <% paintings.forEach(function(paintings, hello) { %>
+                        
+                            <a href="/painting/<%= paintings._id %> ">
+                              <a href="<%-paintings.name %>">
+                                <img src="<%- paintings.imageURL %>" alt="<%- paintings.name %>" loading="lazy">   
+                            </a>
+                        <% }) %>
+                    <% } %>
+
+                  </div>
               </div>
-         </div>
     </div>

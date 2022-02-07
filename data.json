@@ -1,21 +1,23 @@
+[
 {
-    "name": "painting1",
+    "name": "Something about today",
+    "description": "This component of the description will need to refer directly to the artwork at hand. There's no perfect formula for this, however it does need to be engaging! Remember that it should reflect you and your personality, as well as your enthusiasm for your work.",
     "price": "900.00",
-    "imageURL": "images/anml1.jpg",
-    "description": "lorem",
-    "size": "7 x 11 inch"
+    "size": "5 x 7 inch",
+    "imageURL": "images/anml1.jpg"
 }, 
 {
-    "name": "painting2",
-    "price": "975.00",
-    "imageURL": "images/anml2.jpg",
-    "description": "lorem",
-    "size": "7 x 11 inch"
-},
-{ 
-    "name": "painting2",
-    "price": "825.00",
-    "imageURL": "images/anml3.jpg",
-    "description": "lorem",
-    "size": "7 x 11 inch"
-}
+    "name": "Euphoria",
+    "description": "When it comes to selling your art, the more information that you provide in your artwork description the better! After all, this is where your customer will turn to learn more about your piece.",
+    "price": "850.00",
+    "size": "11 x 11 inch",
+    "imageURL": "images/anml2.jpg"
+}, 
+{
+    "name": "wonderland",
+    "description": "This component of the description will need to refer directly to the artwork at hand. There's no perfect formula for this, however it does need to be engaging! Remember that it should reflect you and your personality, as well as your enthusiasm for your work.",
+    "price": "560.00",
+    "size": "8 x 10 inch",
+    "imageURL": "images/anml3.jpg"
+} 
+]
