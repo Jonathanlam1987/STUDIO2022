@@ -1,0 +1,32 @@
+
+
+<h1>Prints</h1>
+
+<% if(paintings != null) { %>
+<div class="retail">
+    <div class="print-img">
+        <div class="">
+            <img src="/<%- paintings.imageURL %>" width="300px" alt="<%- paintings.name %>" loading="lazy">   
+        </div>
+    </div>
+        
+
+    <div class="print-info">
+            <div class=""><h3><%- paintings.name %></h3></div>
+            <div class=""></i>$ <%- paintings.price %>.00</div>
+            <div class=""></i><%- paintings.size %></div>
+            <div class="">
+                <h4>Description</h4>
+                <%- paintings.description %>
+            </div>
+            <br>
+            <button class="purchase-btn">Purchase</button>
+    </div>
+    
+</div>
+        
+<% } else { %>
+    <p>no items found</p>
+<% } %>
+
+

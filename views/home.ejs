@@ -18,12 +18,12 @@
                   <div class="retail-item">
                     
                     <% if(paintings != '') { %>
-                        <% paintings.forEach(function(paintings, hello) { %>
+                        <% paintings.forEach(function(paintings) { %>
                         
-                            <a href="/painting/<%= paintings._id %> ">
-                              <a href="<%-paintings.name %>">
+                            <a href="/prints/<%= paintings._id %> ">
                                 <img src="<%- paintings.imageURL %>" alt="<%- paintings.name %>" loading="lazy">   
                             </a>
+                            
                         <% }) %>
                     <% } %>
 

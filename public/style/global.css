@@ -3,7 +3,7 @@
 /* MAIN.EJS */
 
 body {
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(241, 239, 239);
 }
 .drop-down-container {
     background-color: rgb(255, 255, 255);
@@ -17,8 +17,6 @@ body {
     align-items: center;
     justify-content: space-evenly;
 }
-
-
 
 
 
@@ -61,8 +59,20 @@ body {
     width: 100%;
     height: 100%;
     padding-left: 20%;
-   
+}
 
+
+
+
+/* PRINT.EJS */
+.retail {
+    display: flex;
+    width: 80%;
     
-
+}
+.print-img {
+    padding-left: 100px;
+}
+.print-info {
+    padding-left: 30px;
 }

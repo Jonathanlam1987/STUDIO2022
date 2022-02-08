@@ -9,3 +9,8 @@
     font-size: 20px;
     padding: 15px;
 }
+
+.purchase-btn {
+    border: none;
+    background-color: rgb(250, 227, 227);
+}

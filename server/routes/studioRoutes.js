@@ -6,7 +6,7 @@ const studioController = require('../controllers/studioController');
 // App Routes
 
 router.get('/', studioController.homepage);
-// router.get('/', studioController.explorePaintings);
+router.get('/prints/:id', studioController.explorePaintings);
 
 
 module.exports = router;

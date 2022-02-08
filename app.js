@@ -6,7 +6,7 @@ require('dotenv').config();
 
 // MIDDLEWARE
 app.use(express.urlencoded( { extended: true}));
-app.use(express.static('public'));
+app.use(express.static("public"));
 app.use(expressLayouts);
 app.set('layout', './layouts/main');
 app.set('view engine', 'ejs');

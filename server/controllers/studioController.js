@@ -10,7 +10,6 @@ const Painting = require('../models/painting')
 
 exports.homepage = async (req, res) => {
     try {
-        
         const paintings = await Painting.find({});
         res.render('home', { paintings });     
     } catch (error) {
@@ -22,15 +21,15 @@ exports.homepage = async (req, res) => {
 
 
 
-// exports.explorePaintings = async(req, res) => {
-//     try { 
-//         limitNumber = 5;
-//         const paintings = await Painting.find({}).limit(limitNumber);
+exports.explorePaintings = async(req, res) => {
+    try { 
+        let paintingId = req.params.id;
+        const paintings = await Painting.findById(paintingId);
 
-//         res.render('home', { paintings });
-//     } catch (error) {
-//         res.status(500).send({message: error.message || "error message"});
-//     }
-// }
+        res.render('prints', { paintings });
+    } catch (error) {
+        res.status(500).send({message: error.message || "error message"});
+    }
+}
 
 
