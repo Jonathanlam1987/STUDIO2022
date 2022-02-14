@@ -20,7 +20,7 @@
                     <% if(paintings != '') { %>
                         <% paintings.forEach(function(paintings) { %>
                         
-                            <a href="/prints/<%= paintings._id %> ">
+                            <a href="/prints/<%= paintings._id %> " >
                                 <img src="<%- paintings.imageURL %>" alt="<%- paintings.name %>" loading="lazy">   
                             </a>
                             

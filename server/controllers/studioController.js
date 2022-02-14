@@ -20,7 +20,7 @@ exports.homepage = async (req, res) => {
 
 
 
-
+// GET / Prints
 exports.explorePaintings = async(req, res) => {
     try { 
         let paintingId = req.params.id;
@@ -32,4 +32,31 @@ exports.explorePaintings = async(req, res) => {
     }
 }
 
+// GET / Signup
+exports.signupPage = async(req, res) => {
+    try {
+        res.render('signup');
+    } catch (error) {
+        res.status(500).send({ message: error.message || " error message"});
+    }
+}
 
+// GET / Login
+exports.loginPage = async (req, res) => {
+    try {
+        res.render('login')
+    } catch (error) {
+        res.status(500).send({ message : error.message || " error message "})
+    }
+}
+
+
+// GET CART
+
+exports.ShoppingCart = async (req, res) => {
+    try {
+        res.render('cart')
+    } catch (error) {
+        res.status(500).send({message : error.message || ' Err'})
+    }
+}
